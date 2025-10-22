@@ -13,8 +13,8 @@ try {
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
     // Người gửi / Người nhận
-    $mail->setFrom('vuongquangquy2511@gmail.com', 'Mailer Demo');
-    $mail->addAddress('vuongquangquy2511@example.com', 'Người nhận');
+    $mail->setFrom('hyteemuoibay@gmail.com', 'Mailer Demo');
+    $mail->addAddress('hyteemuoibay@example.com', 'Người nhận');
     // Nội dung email
     $mail->isHTML(true);
     $mail->Subject = 'Test Email from PHPMailer';

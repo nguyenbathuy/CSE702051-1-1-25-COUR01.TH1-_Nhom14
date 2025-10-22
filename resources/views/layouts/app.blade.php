@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Quản Lý Thư Viện</title>
+    <title>Website Hệ Thống Quản Lý Thư Viện</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
@@ -27,7 +27,7 @@
         @auth
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>Thư Viện</h3>
+                    <h3><i class="fas fa-book mr-2"></i> Thư Viện</h3> 
                 </div>
                 <ul class="list-unstyled components">
                     <li>
